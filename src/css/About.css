@@ -69,7 +69,7 @@
     height: 340px;
     width: 290px;
 }
-.AboutExternals button {
+/* .AboutExternals button {
     background-color: inherit;
     cursor: pointer;
     font-family: Inter;
@@ -79,7 +79,13 @@
     border: 3px solid #FF3F66;
     font-size: 16px;
     font-weight: 500;
+    border-radius: 1em;
+    transition: ease-in .8;
 }
+.AboutExternals button:hover {
+    color: #FFFFFF !important;
+    background-color: #FF3F66;
+} */
 @media (min-width: 512px) {
     .AboutContainer {
         padding: 30px;

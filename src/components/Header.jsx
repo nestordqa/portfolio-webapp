@@ -16,19 +16,19 @@ function Header() {
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg " style={{ backgroundColor: 'inherit' }}>
-        <div class="container">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg " style={{ backgroundColor: 'inherit' }}>
+        <div className="container">
+          <a className="navbar-brand" href="#">
             <CodeLogo />
           </a>
-          <button onClick={() => setIsOpen(!isOpen)} class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button onClick={() => setIsOpen(!isOpen)} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             {!isOpen ? <Hamburguer /> : <CloseAside />}
           </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="d-flex navbar-nav">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul className="d-flex navbar-nav">
               {links.map(link => (
-                <li key={link.id} class="nav-item " >
-                  <a class="nav-link text-light pt-0-lg pb-0-lg text-center " href={link.href}>{link.nombre}</a>
+                <li key={link.id} className="nav-item " >
+                  <a className="nav-link text-light pt-0-lg pb-0-lg text-center " href={link.href}>{link.nombre}</a>
                 </li>
               ))}
             </ul>
