@@ -1,0 +1,30 @@
+.FooterSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: white
+    
+}
+.FooterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1240px;
+    width: 100%;
+}
+@media (min-width: 700px) {
+    .FooterSection {
+        padding: 30px;
+    }
+    .FooterContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 1020px) {
+    .FooterSection {
+        padding: 50px;
+    }
+}

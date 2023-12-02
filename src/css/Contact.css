@@ -1,0 +1,95 @@
+.ContactSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+}
+.ContactSection h2 {
+    color: #FF3F66;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.ContactImage {
+    display: none;
+}
+.ContactContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    max-width: 1220px;
+    width: 100%;
+    align-items: center;
+}
+@media (min-width: 1020px) {
+    .ContactSection {
+        flex-direction: column;
+        padding: 50px;
+    }
+    .ContactImage {
+        display: block;
+    }
+    .ContactContainer {
+        flex-direction: row;
+    }
+}
+
+form {
+    max-width: 500px;
+    background: rgba(27, 27, 49, 0.78);
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgba(93, 56, 241, 1), rgba(198, 36, 224, 1), rgba(174, 12, 177, 1) ) 1;
+}
+fieldset {
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+
+}
+input {
+    height: 30px;
+}
+textarea {
+    resize: none;
+    width: 100%;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+}
+.FormName {
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+}
+.FormName input {
+    width: 50%;
+}
+.FormEmail {
+    display: flex;
+    flex-direction: column;
+}
+.FormButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.FormButton button {
+    background-color: inherit;
+    font-family: Inter;
+    color: #FF3F66;
+    width: 150px;
+    height: 40px;
+    border: 3px solid #FF3F66;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ContactImage {
+    max-width: 470px;
+    width: 100%;
+}

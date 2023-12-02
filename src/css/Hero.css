@@ -1,0 +1,94 @@
+.HeroSection {
+    display: flex;
+    
+}
+.HeroContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    column-gap: 60px;
+    padding: 15px;
+    max-width: 1220px;
+}
+.HeroTexts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 490px;
+}
+.HeroTexts h1 {
+    font-family: Inter;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 39px;   
+    margin: 0;
+    color: white;
+}
+.HeroTexts p {
+    margin-top: 16px;
+    text-align: center;
+    color: white;
+}
+.HeroTexts span {
+    color: #FF3F66;
+}
+.HeroTexts button {
+    background-color: inherit;
+    font-family: Inter;
+    color: #FF3F66;
+    width: 150px;
+    height: 40px;
+    border: 3px solid #FF3F66;
+    margin-top: 45px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.HeroImage {
+    display: none;
+}
+@media (min-width: 990px) {
+    .HeroImage {
+        display: block;
+    }  
+
+}
+@media (min-width: 991px) {
+    .HeroSection {
+        justify-content: center;
+        padding: 25px 60px 30px 60px;
+    }
+    .HeroContainer {
+        padding: 0;
+        justify-content: space-between;
+    }
+    .HeroTexts {
+        align-items: flex-start;
+    }
+    .HeroTexts h1 {
+        text-align: left;
+        font-size: 30px;
+    }
+    .HeroTexts p {
+        text-align: left;
+    }
+
+}
+@media (min-width: 1200px) {
+    .HeroTexts h1 {
+        font-size: 32px;
+    }
+    .HeroContainer {
+        column-gap: 200px;
+    }
+}
+@media (min-width: 700px) {
+    .HeroSection {
+        padding: 25px 60px 30px 60px;
+    }
+    .HeroTexts h1 {
+        font-size: 32px;
+    }
+
+}

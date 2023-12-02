@@ -1,0 +1,61 @@
+@import url(Header.css);
+@import url(Aside.css);
+@import url(Hero.css);
+@import url(About.css);
+@import url(Graphics.css);
+@import url(Skills.css);
+@import url(Proyects.css);
+@import url(ProyectCard.css);
+@import url(Contact.css);
+@import url(Footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+html, body {
+  margin: 0;
+  height: 100%;
+}
+body{
+  background: #080F23;
+}
+p {
+  font-family: Inter;
+  margin: 0;
+  text-align: center;
+}
+button a {
+  color: #FF3F66
+}
+.ButtonScroll{
+  color: #FF3F66;
+  cursor: pointer;
+  background-color: inherit;
+  width: 150px;
+  height: 40px;
+  border: 3px solid #FF3F66;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+}
+a {
+  font-family: Inter;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+ul li {
+  font-family: Inter;
+  list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Inter;
+  margin: 0;
+}
+button {
+  position: relative;
+  cursor: pointer;
+}
+section {
+  position: relative;
+}

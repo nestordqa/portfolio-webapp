@@ -1,0 +1,127 @@
+.AboutSection {
+    display: flex;
+    justify-content: center;    align-items: center;
+
+}
+.AboutContainer {
+    max-width: 1220px;
+    padding: 15px;
+}
+.AboutCard {
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 70px;
+}
+.AboutInformation {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+.AboutTexts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.AboutTexts p {
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.AboutMe {
+    color: #FF3F66 !important;
+}
+.AboutTexts h2 {
+    background: linear-gradient(270deg, #692DE9 0%, #C624E0 45.83%, #CE2D97 74.48%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 263px;
+    font-size: 32px;
+}
+.Description {
+    margin-top: 12px;
+    font-size: 18px !important;
+}
+.AboutExternals {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.MediaContainer {
+    display: flex;
+    column-gap: 16px;
+}
+.Media {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 90px;
+}
+.AboutProfile img {
+    object-fit: cover;
+    height: 340px;
+    width: 290px;
+}
+.AboutExternals button {
+    background-color: inherit;
+    cursor: pointer;
+    font-family: Inter;
+    color: #FF3F66;
+    width: 150px;
+    height: 40px;
+    border: 3px solid #FF3F66;
+    font-size: 16px;
+    font-weight: 500;
+}
+@media (min-width: 512px) {
+    .AboutContainer {
+        padding: 30px;
+    }
+    .AboutCard {
+        background: rgba(18, 31, 61, 0.71);
+        box-shadow: -5px 5px 12px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(4px);
+        border-width: 4px;
+        border-style: solid;
+        border-image: linear-gradient(to bottom, rgba(93, 56, 241, 1), rgba(198, 36, 224, 1), rgba(174, 12, 177, 1) ) 1;
+        padding: 50px;
+    }
+    .AboutProfile img {
+        object-fit: cover;
+        height: 340px;
+        width: 350px;
+    }
+}
+@media (min-width: 990px) {
+    .AboutContainer {
+        padding: 50px 60px 50px 60px;
+    }
+    .AboutCard {
+        padding: 50px;
+        flex-direction: row;
+        column-gap: 50px;
+    }
+
+    .AboutExternals {
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (min-width: 1200px) {
+    .AboutCard {
+        column-gap: 70px;
+    }
+    .AboutProfile img {
+        object-fit: cover;
+    }
+}
+@media (min-width: 512px) {
+
+}

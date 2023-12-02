@@ -1,0 +1,45 @@
+.CircleBackground {
+    fill: none;
+    stroke: #706D67;
+}
+.CircleProgress {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.CircleHover {
+    transition: all 0.3s ease-in-out;
+    fill: rgba(0, 0, 0, 0.65);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: none;
+    cursor: pointer;
+}
+.animation {
+    fill: rgba(255, 255, 255, 0);
+    transition: all 0.3s ease-in-out;
+}
+.CircleText {
+    transition: all 0.3s ease-in-out;
+    font-size: 3rem;
+    font-weight: bold;
+    fill: white;
+    cursor: pointer;
+}
+.Circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GraphicLogo  {
+    z-index: -1;
+    position: absolute;
+}
+.GraphicSection {
+    padding: 20px;
+}
+.GraphicSection p {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}

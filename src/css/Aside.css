@@ -1,0 +1,74 @@
+.AsideSection {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgba(159, 159, 159, 1);
+    flex-direction: column;
+    z-index: 50;
+    animation-duration: 0.3s;
+    animation-name: slidein;
+    justify-content: space-between;
+}
+.AsideSection body {
+    overflow: hidden;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+    
+    to {
+        margin-right: 0%;
+    }
+  }
+.AsideHeader {
+    display: flex;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    justify-content: space-between;
+}
+.AsideHeader button {
+    background-color: inherit;
+    border-radius: 100%;
+    height: 60px;
+    width: 65px;
+    border: none;
+}
+
+@media (min-width: 990px) {
+    .AsideSection {
+        display: none;
+    }
+    .AsideQuerys {
+        display: none;
+    }    
+}
+
+.AsideLinksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.AsideLinksContainer ul {
+    font-size: 24px;
+    row-gap: 45px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+.AsideLinksContainer li {
+    padding: 0;
+    margin: 0;
+}
+.CopyRigth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 40px 60px 40px 60px;
+}
