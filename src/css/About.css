@@ -15,6 +15,8 @@
     align-items: center;
     justify-content: center;
     column-gap: 70px;
+    border-radius: 1em;
+    border: #FF3F66 solid 2px
 }
 .AboutInformation {
     text-align: left;
@@ -96,8 +98,8 @@
         backdrop-filter: blur(4px);
         border-width: 4px;
         border-style: solid;
-        border-image: linear-gradient(to bottom, rgba(93, 56, 241, 1), rgba(198, 36, 224, 1), rgba(174, 12, 177, 1) ) 1;
         padding: 50px;
+        border-radius: 1em;
     }
     .AboutProfile img {
         object-fit: cover;
@@ -113,6 +115,7 @@
         padding: 50px;
         flex-direction: row;
         column-gap: 50px;
+        border-radius: 1em;
     }
 
     .AboutExternals {
@@ -123,6 +126,7 @@
 @media (min-width: 1200px) {
     .AboutCard {
         column-gap: 70px;
+        border-radius: 1em;
     }
     .AboutProfile img {
         object-fit: cover;
