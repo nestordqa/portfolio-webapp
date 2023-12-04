@@ -6,6 +6,7 @@ import JavaScriptLogo from '../assets/JavaScriptLogo.jsx';
 import ReactLogo from '../assets/ReactLogo.jsx';
 import SassLogo from '../assets/SassLogo.jsx';
 import VueJsLogo from '../assets/VueJsLogo.jsx';
+import AngularLogo from '../assets/AngularLogo.jsx';
 
 function Graphics({ circleWidth = "200", porcentage, image, lenguage }) {
 
@@ -106,6 +107,7 @@ function Graphics({ circleWidth = "200", porcentage, image, lenguage }) {
                     { image == 'ReactLogo' &&  <ReactLogo /> }
                     { image == 'VueLogo' &&  <VueJsLogo /> }
                     { image == 'SassLogo' &&  <SassLogo /> }
+                    { image == 'AngularLogo' &&  <AngularLogo /> }
                 </div>
                 <p x="50%" y="50%" dy="0.3em" textAnchor="middle" className='CircleText'>{lenguage}</p>
             </section>

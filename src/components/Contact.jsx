@@ -139,7 +139,7 @@ function Contact () {
                                             minLength: 100
                                         })} 
                                         />
-                                    <label htmlFor="form" className="form__label">¡Contáctanos!</label>
+                                    <label htmlFor="form" className="form__label">Descripción</label>
                                 </div>
                                 {
                                     errors?.form?.type === 'required' && 

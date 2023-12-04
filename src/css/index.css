@@ -43,6 +43,25 @@ button a {
   color: #FFFFFF;
   background-color: #FF3F66;
 }
+.ButtonScroll2{
+  color: #FF3F66;
+  cursor: pointer;
+  background-color: inherit;
+  width: 200px;
+  height: 40px;
+  border: 3px solid #FF3F66;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  border-radius: 1em;
+  transition: ease-in .8;
+}
+.ButtonScroll2:hover {
+  color: #FFFFFF;
+  background-color: #FF3F66;
+}
 button{
   color: #FF3F66;
   cursor: pointer;

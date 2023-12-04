@@ -14,8 +14,8 @@ function Aside({ links }) {
           </ul>
         </div>
         <div className='CopyRigth'>
-          <p>© CopyRight 2022 - VL-CODE.</p>
-          <p>© Powered by VL-CODE.</p>
+          <p>© CopyRight 2022 - RLN-CODE.</p>
+          <p>© Powered by RLN-CODE.</p>
         </div>
       </section>
     </>
