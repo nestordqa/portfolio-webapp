@@ -1,11 +1,12 @@
-function ProyectCard ({colorCard = 'blue', Title = 'Panzza Pizzeria', description = '', link = ''}) {
+function ProyectCard ({colorCard, Title, description, link}) {
+    
     return (
         <>
             <section className="CardSection">
                 <div className="CardText">
                     <p>{Title}</p>
                     <p>{description}</p>
-                    <a style={{color: colorCard}} target="_blank" href={link}>Vizualizar Proyecto</a>
+                    <a style={{color: colorCard}} target="_blank" href={link}>Visualizar Proyecto</a>
                 </div>
             </section>
         </>
