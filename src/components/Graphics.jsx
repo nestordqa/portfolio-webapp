@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 import CssLogo from '../assets/CssLogo.jsx';
 import HtmlLogo from '../assets/HtmlLogo.jsx';
@@ -7,7 +8,12 @@ import ReactLogo from '../assets/ReactLogo.jsx';
 import SassLogo from '../assets/SassLogo.jsx';
 import VueJsLogo from '../assets/VueJsLogo.jsx';
 import AngularLogo from '../assets/AngularLogo.jsx';
-
+import PostgresLogo from '../assets/PostgresLogo.jsx';
+import FlutterLogo from '../assets/FlutterLogo.jsx';
+import LaravelLogo from '../assets/LaravelLogo.jsx';
+import JavaLogo from '../assets/JavaLogo.jsx';
+import NodeLogo from '../assets/NodeLogo.jsx';
+import MongoLogo from '../assets/MongoLogo.jsx';
 function Graphics({ circleWidth = "200", porcentage, image, lenguage }) {
 
     const [progress, setProgress] = useState(0);
@@ -26,14 +32,14 @@ function Graphics({ circleWidth = "200", porcentage, image, lenguage }) {
         progress < porcentage ? setTimeout(() => { setProgress(progress + 1)}, speed) : progress;
         progress == porcentage ? setTimeout(()=> {setActive(false)}, 1000) : setActive(true)
 
-
+    /* eslint-disable */
     }, [progress])
 
 
-    function MouseOver(event) {
+    function MouseOver() {
         setActive(true)
     }
-    function MouseOut(event) {
+    function MouseOut() {
         setActive(false)
     }
 
@@ -108,6 +114,13 @@ function Graphics({ circleWidth = "200", porcentage, image, lenguage }) {
                     { image == 'VueLogo' &&  <VueJsLogo /> }
                     { image == 'SassLogo' &&  <SassLogo /> }
                     { image == 'AngularLogo' &&  <AngularLogo /> }
+                    { image == 'PostgresLogo' &&  <PostgresLogo /> }
+                    { image == 'FlutterLogo' &&  <FlutterLogo /> }
+                    { image == 'LaravelLogo' &&  <LaravelLogo /> }
+                    { image == 'JavaLogo' &&  <JavaLogo /> }
+                    { image == 'NodeLogo' &&  <NodeLogo /> }
+                    { image == 'MongoLogo' &&  <MongoLogo /> }
+
                 </div>
                 <p x="50%" y="50%" dy="0.3em" textAnchor="middle" className='CircleText'>{lenguage}</p>
             </section>
@@ -115,4 +128,10 @@ function Graphics({ circleWidth = "200", porcentage, image, lenguage }) {
 
     )
 }
+Graphics.propTypes = {
+    circleWidth: PropTypes.string.isRequired, 
+    porcentage: PropTypes.string.isRequired, 
+    image: PropTypes.node.isRequired, 
+    lenguage: PropTypes.string.isRequired
+};
 export default Graphics

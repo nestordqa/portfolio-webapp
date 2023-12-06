@@ -7,7 +7,7 @@ function Hero() {
             <div className="HeroContainer">
                 <div className="HeroTexts">
                     <h1>Ayudando empresas a construir <span>productos digitales</span> de alta calidad.</h1>
-                    <p>Tu mejor opcion para diseño y desarrollo web.</p>
+                    <p>Tu mejor opcion para diseño, desarrollo de aplicaciones web y móviles.</p>
                     <a className="ButtonScroll" href='#scrollspyHeading5'>
                         Contacto
                     </a>

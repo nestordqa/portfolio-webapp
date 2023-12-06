@@ -1,3 +1,18 @@
+@keyframes envelopeAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-35px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.envelope {
+    animation: envelopeAnimation 2s infinite;
+}
+
 .ContactSection {
     display: flex;
     flex-direction: column;

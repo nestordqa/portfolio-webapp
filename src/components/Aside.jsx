@@ -6,7 +6,7 @@ function Aside({ links }) {
       <section className='AsideSection'>
         <div className='AsideLinksContainer '>
           <ul>
-            {links.map(link => (
+            {links?.map(link => (
               <li key={link.id}>
                 <a href={link.href}>{link.nombre}</a>
               </li>
@@ -14,7 +14,7 @@ function Aside({ links }) {
           </ul>
         </div>
         <div className='CopyRigth'>
-          <p>© CopyRight 2022 - RLN-CODE.</p>
+          <p>© Copyright 2023 - RLN-CODE.</p>
           <p>© Powered by RLN-CODE.</p>
         </div>
       </section>

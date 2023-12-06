@@ -5,11 +5,11 @@ import { useState } from 'react';
 
 function Header() {
   const links = [
-    { id: 1, nombre: 'inicio', href: '#scrollspyHeading1' },
-    { id: 2, nombre: 'Sobre Mi', href: '#scrollspyHeading2' },
-    { id: 3, nombre: 'Habilidades', href: '#scrollspyHeading3' },
-    { id: 4, nombre: 'Proyectos', href: '#scrollspyHeading4' },
-    { id: 5, nombre: 'Contacto', href: '#scrollspyHeading5' }
+    { id: 1, nombre: 'Home', href: '#scrollspyHeading1' },
+    { id: 2, nombre: 'About RLN', href: '#scrollspyHeading2' },
+    { id: 3, nombre: 'Skills', href: '#scrollspyHeading3' },
+    { id: 4, nombre: 'Projects', href: '#scrollspyHeading4' },
+    { id: 5, nombre: 'Contact us', href: '#scrollspyHeading5' }
   ];
 
   const [isOpen, setIsOpen] = useState(false);

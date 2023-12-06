@@ -1,7 +1,7 @@
-import GitHubLogo from "../assets/GitHubLogo.jsx"
-import LinkedinLogo from "../assets/LinkedinLogo.jsx"
-import InstagramLogo from "../assets/InstagramLogo.jsx"
-import Resumen from "../assets/CV-VictorLovera.pdf"
+// import GitHubLogo from "../assets/GitHubLogo.jsx"
+// import LinkedinLogo from "../assets/LinkedinLogo.jsx"
+// import InstagramLogo from "../assets/InstagramLogo.jsx"
+// import Resumen from "../assets/CV-VictorLovera.pdf"
 
 function About() {
     return (
@@ -18,12 +18,14 @@ function About() {
                             <div className="AboutTexts">
                                 <p className="AboutMe">About us</p>
                                 <h2>RLN-Code</h2>
-                                <p>Full stack sofware development services.</p>
-                                <p className="Description">¡Hola!, mi nombre es Victor Lovera. Soy un programador Full Stack especializado en Front End con experiencia laboral. Me gustaría formar parte de un equipo IT que me permita desarrollarme profesionalmente. Manejo tecnologías como Vue, React, JavaScript, NodeJs y MongoDB.</p>
+                                <p>Full stack software development services.</p>
+                                <p className="Description">
+                                    Somos un equipo de ingenieros de sistemas con más de 05 años de experiencia apasionados por la creación de soluciones innovadoras. Con experiencia en tecnologías líderes como Angular, React, NextJS, React Native, Flutter, Laravel, CodeIgniter, Java, Node.js, PostgreSQL, MongoDB y Emitter. Ofrecemos servicios de desarrollo de alta calidad y adaptados a sus necesidades.
+                                </p>
                             </div>
                             <div className="AboutExternals">
                                 <div className="MediaContainer">
-                                    <a className="Media" href="https://github.com/victor260622" target="_blank" rel="noreferrer">
+                                    {/* <a className="Media" href="https://github.com/victor260622" target="_blank" rel="noreferrer">
                                         <GitHubLogo />
                                     </a>
                                     <a className="Media" href="https://www.linkedin.com/in/victorlovera/" target="_blank" rel="noreferrer">
@@ -31,7 +33,7 @@ function About() {
                                     </a>
                                     <a className="Media" href="https://www.instagram.com/vlovera.bl/" target="_blank" rel="noreferrer">
                                         <InstagramLogo />
-                                    </a>
+                                    </a> */}
                                 </div>
                                 <a className="ButtonScroll2" href='#scrollspyHeading4'>
                                     Look at our projects!
