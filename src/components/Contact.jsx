@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 // import MailImg from '../assets/MailImg';
 
 function Contact () {
@@ -8,19 +8,17 @@ function Contact () {
         handleSubmit,
         formState: { errors },
     } = useForm();
-    const onSubmit = (data) => {
-        console.log(data)
+    const onSubmit = (data) => {        
+        // const serviceId = "service_hf2gixf";
+        // const templateId = "template_pr27x19";
+
+        // const apiKey = "-5Oi1SkA8rEheBOEo";
+        // emailjs.sendForm(serviceId, templateId)
+        // .then(result => console.log(result.text))
+        // .catch(e => console.log(e));
     };
     // const handleSubmit = (event) => {
     //     event.preventDefault();
-
-    //     const serviceId = "service_404lg0h";
-    //     const templateId = "template_1f6qhwr";
-
-    //     const apiKey = "MaKV5Mj_XzF-ue66j";
-
-    //     emailjs.sendForm
-    //     emailjs.sendForm(serviceId, templateId, form.current, apiKey).then(result => console.log(result.text)).catch(e => console.log(e))
     // }
     return (
         <>
