@@ -7,6 +7,11 @@
 }
 .nav-item a {
     font-size: 24px;
+    transition: all ease-in .3s;
+}
+.nav-item a:hover {
+    color: #ae0cb1 !important;
+    font-weight: 800;
 }
 .HeaderSection {
     display: flex;

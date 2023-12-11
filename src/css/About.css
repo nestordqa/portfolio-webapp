@@ -16,7 +16,7 @@
     justify-content: center;
     column-gap: 70px;
     border-radius: 1em;
-    border: #FF3F66 solid 2px
+    border: #ae0cb1 solid 2px
 }
 .AboutInformation {
     text-align: left;
@@ -35,7 +35,10 @@
     color: white;
 }
 .AboutMe {
-    color: #FF3F66 !important;
+    color: #ae0cb1 !important;
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 .AboutTexts h2 {
     background: linear-gradient(270deg, #692DE9 0%, #C624E0 45.83%, #CE2D97 74.48%);
@@ -75,10 +78,10 @@
     background-color: inherit;
     cursor: pointer;
     font-family: Inter;
-    color: #FF3F66;
+    color: #ae0cb1;
     width: 150px;
     height: 40px;
-    border: 3px solid #FF3F66;
+    border: 3px solid #ae0cb1;
     font-size: 16px;
     font-weight: 500;
     border-radius: 1em;
@@ -86,7 +89,7 @@
 }
 .AboutExternals button:hover {
     color: #FFFFFF !important;
-    background-color: #FF3F66;
+    background-color: #ae0cb1;
 } */
 @media (min-width: 512px) {
     .AboutContainer {

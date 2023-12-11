@@ -1,26 +1,30 @@
 import { useForm } from "react-hook-form";
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react'
 // import MailImg from '../assets/MailImg';
 
 function Contact () {
+    const form = useRef();
     const {
         register,
         handleSubmit,
         formState: { errors },
+        reset
     } = useForm();
-    const onSubmit = (data) => {
-        console.log(data)
+    const onSubmit = (data) => {        
+        const serviceId = "service_hf2gixf";
+        const templateId = "template_t6ctb4e";
+        const apiKey = "-5Oi1SkA8rEheBOEo";
+        emailjs.sendForm
+        emailjs.sendForm(serviceId, templateId, form.current, apiKey)
+        .then(result => {
+            console.log(result, data);
+            reset();
+        })
+        .catch(e => console.log(e));
     };
     // const handleSubmit = (event) => {
     //     event.preventDefault();
-
-    //     const serviceId = "service_404lg0h";
-    //     const templateId = "template_1f6qhwr";
-
-    //     const apiKey = "MaKV5Mj_XzF-ue66j";
-
-    //     emailjs.sendForm
-    //     emailjs.sendForm(serviceId, templateId, form.current, apiKey).then(result => console.log(result.text)).catch(e => console.log(e))
     // }
     return (
         <>
@@ -48,7 +52,7 @@ function Contact () {
                     </svg>
                     </div>
                     <div className='formContainer'>
-                        <form onSubmit={handleSubmit(onSubmit)}>
+                        <form ref={form} onSubmit={handleSubmit(onSubmit)}>
                             <fieldset>
                                 <div className="form__group field">
                                     <input 

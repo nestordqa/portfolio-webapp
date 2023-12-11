@@ -145,7 +145,7 @@
   transition: var(--transition);
 }
 .card__bx:hover .card__data h3 {
-  color: var(--dark-color);
+  /* color: var(--dark-color); */
   transition: var(--transition);
 }
 .card__bx .card__data p {
@@ -154,7 +154,7 @@
   transition: var(--transition);
 }
 .card__bx:hover .card__data p {
-  color: var(--dark-color);
+  /* color: var(--dark-color); */
   transition: var(--transition);
 }
 .card__bx .card__data a {

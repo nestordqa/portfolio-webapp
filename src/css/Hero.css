@@ -32,15 +32,15 @@
     color: white;
 }
 .HeroTexts span {
-    color: #FF3F66;
+    color: #ae0cb1;
 }
 .HeroTexts button {
     background-color: inherit;
     font-family: Inter;
-    color: #FF3F66;
+    color: #ae0cb1;
     width: 150px;
     height: 40px;
-    border: 3px solid #FF3F66;
+    border: 3px solid #ae0cb1;
     margin-top: 45px;
     font-size: 16px;
     font-weight: 500;
