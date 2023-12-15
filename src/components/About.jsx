@@ -20,7 +20,8 @@ function About() {
                                 <h2>RLN-Code</h2>
                                 <p>Full stack software development services.</p>
                                 <p className="Description">
-                                    Somos un equipo de ingenieros de sistemas con más de 05 años de experiencia apasionados por la creación de soluciones innovadoras. Con experiencia en tecnologías líderes como Angular, React, NextJS, React Native, Flutter, Laravel, CodeIgniter, Java, Node.js, PostgreSQL, MongoDB y Emitter. Ofrecemos servicios de desarrollo de alta calidad y adaptados a sus necesidades.
+                                    
+We are a team of systems engineers with more than 05 years of experience passionate about creating innovative solutions. Experienced in leading technologies such as Angular, React, NextJS, React Native, Flutter, Laravel, CodeIgniter, Java, Node.js, PostgreSQL, MongoDB and Emitter. We offer high-quality development services tailored to your needs.
                                 </p>
                             </div>
                             <div className="AboutExternals">

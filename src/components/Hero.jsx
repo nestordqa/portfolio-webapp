@@ -6,10 +6,10 @@ function Hero() {
         <section className="HeroSection" data-bs-spy="scroll" id="scrollspyHeading1">
             <div className="HeroContainer">
                 <div className="HeroTexts">
-                    <h1>Ayudando empresas a construir <span>productos digitales</span> de alta calidad.</h1>
-                    <p>Tu mejor opcion para diseño, desarrollo de aplicaciones web y móviles.</p>
+                    <h1>Helping companies build <br /><span>high-quality digital products.</span></h1>
+                    <p>Your best option for design, development of web and mobile applications.</p>
                     <a className="ButtonScroll" href='#scrollspyHeading5'>
-                        Contacto
+                        Contact us
                     </a>
                 </div>
                 <div className="HeroImage">

@@ -29,7 +29,7 @@ function Contact () {
     return (
         <>
             <section className='ContactSection' data-bs-spy="scroll" id="scrollspyHeading5">
-                <h2>Contacto</h2>
+                <h2>Contact</h2>
                 <div className='ContactContainer'>
                     <div className='ContactImage'>
                     <svg className="envelope" height="457" viewBox="0 0 466 457" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,13 +58,13 @@ function Contact () {
                                     <input 
                                         type="input" 
                                         className="form__field" 
-                                        placeholder="Nombre" 
+                                        placeholder="Name" 
                                         {...register("userName", { 
                                             required: true, 
                                             maxLength: 20,
                                         })} 
                                     />
-                                    <label htmlFor="name" className="form__label">Nombre</label>
+                                    <label htmlFor="name" className="form__label">Name</label>
                                 </div>
                                 {
                                     errors?.userName?.type === 'required' && 
@@ -73,7 +73,7 @@ function Contact () {
                                         fontStyle: 'italic',
                                         fontWeight: '900'
                                     }}>
-                                        Este campo es requerido.
+                                        This field is required.
                                     </span>
                                 }
                                 {
@@ -83,20 +83,20 @@ function Contact () {
                                         fontStyle: 'italic',
                                         fontWeight: '900'
                                     }}>
-                                        No se admite mas de 20 caracteres.
+                                        More than 20 characters are not allowed.
                                     </span>
                                 }
                                 <div className="form__group field">
                                     <input 
                                         className="form__field" 
                                         type="text" 
-                                        placeholder='Apellido' 
+                                        placeholder='Lastname' 
                                         {...register("userLastname", { 
                                             required: true, 
                                             maxLength: 20,
                                         })} 
                                         />
-                                    <label htmlFor="userLastname" className="form__label">Apellido</label>
+                                    <label htmlFor="userLastname" className="form__label">Lastname</label>
                                 </div>
                                 {
                                     errors?.userLastname?.type === 'required' && 
@@ -105,7 +105,7 @@ function Contact () {
                                         fontStyle: 'italic',
                                         fontWeight: '900'
                                     }}>
-                                        Este campo es requerido.
+                                        This field is required.
                                     </span>
                                 }
                                 {
@@ -115,7 +115,7 @@ function Contact () {
                                         fontStyle: 'italic',
                                         fontWeight: '900'
                                     }}>
-                                        No se admite mas de 20 caracteres.
+                                        More than 20 characters are not allowed.
                                     </span>
                                 }
                                 <div className="form__group field">
@@ -136,7 +136,7 @@ function Contact () {
                                         fontStyle: 'italic',
                                         fontWeight: '900'
                                     }}>
-                                        Este campo es requerido.
+                                        This field is required.
                                     </span>
                                 }
                                 {
@@ -146,21 +146,21 @@ function Contact () {
                                         fontStyle: 'italic',
                                         fontWeight: '900'
                                     }}>
-                                        El correo electronico ingresado es invalido.
+                                        The email address entered is invalid.
                                     </span>
                                 }
                                 <div className="form__group field">
                                     <textarea 
                                         className="form__field" 
                                         maxLength={500} 
-                                        placeholder='Escribe tu mensaje' 
+                                        placeholder='Write your message' 
                                         {...register("form", { 
                                             required: true, 
                                             maxLength: 600,
                                             minLength: 100
                                         })} 
                                         />
-                                    <label htmlFor="form" className="form__label">Descripción</label>
+                                    <label htmlFor="form" className="form__label">Write your message</label>
                                 </div>
                                 {
                                     errors?.form?.type === 'required' && 
@@ -169,7 +169,7 @@ function Contact () {
                                         fontStyle: 'italic',
                                         fontWeight: '900'
                                     }}>
-                                        Este campo es requerido.
+                                        This field is required.
                                     </span>
                                 }
                                 {
@@ -179,7 +179,7 @@ function Contact () {
                                         fontStyle: 'italic',
                                         fontWeight: '900'
                                     }}>
-                                        No se admite mas de 600 caracteres.
+                                        More than 600 characters are not allowed.
                                     </span>
                                 }
                                 {
@@ -188,14 +188,14 @@ function Contact () {
                                         color: 'red',
                                         fontStyle: 'italic',
                                         fontWeight: '900'
-                                    }}>
-                                        Debes ingresar mas de 100 caracteres.
+                                    }}>                                        
+                                        You must enter more than 100 characters.
                                     </span>
                                 }
                                 <div>
                                 </div>
                                 <div className='FormButton'>
-                                    <button type='submit'>Enviar</button>
+                                    <button type='submit'>Submit</button>
                                 </div>
                             </fieldset>
                         </form>

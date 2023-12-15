@@ -2,47 +2,47 @@ import ProyectCard from './ProyectCard.jsx';
 function Proyects () {
     const projects = [
         {
-            description: 'Aplicación web dedicada al aprendizaje entre la relación entre la música y los negocios, con sucursales en México, Costa Rica y Honduras.',
+            description: 'Web application dedicated to learning the relationship between music and business, with branches in Mexico, Costa Rica and Honduras.',
             title: 'Seed Academy',
             url: 'https://www.seedcademy.io/'
         },
         {
-            description: 'Aplicación móvil enfocada en trackeo de flotas de vehículos de grandes compañías, desarrollada para compañía de Venezuela dedicada a geolocalización.',
+            description: 'Mobile application focused on tracking vehicle fleets of large companies, developed for a Venezuelan company dedicated to geolocation.',
             title: 'GTR Max',
             url: 'https://play.google.com/store/apps/details?id=ve.com.sigis.gtr'
         },
         {
-            description: 'Aplicación web dedicada a agencia de Marketing y Branding, ubicada en Trinidad y Tobago.',
+            description: 'Web application dedicated to a Marketing and Branding agency, located in Trinidad and Tobago.',
             title: 'Marcelo Design X',
             url: 'https://www.marcelodesignx.com/'
         },
         {
-            description: 'Aplicación móvil enfocada en trackeo de flotas de vehículos para personas particulares, desarrollada para compañía de Venezuela dedicada a geolocalización.º',
+            description: 'Mobile application focused on tracking vehicle fleets for individuals, developed for a Venezuelan company dedicated to geolocation.',
             title: 'GTR One',
             url: 'https://play.google.com/store/apps/details?id=ve.com.sigis.gtrone'
         },
         {
-            description: 'Aplicación web desarrollada para empresa ubicada en Argentina dedicada a servicios referentes a recursos humanos.',
+            description: 'Web application developed for a company located in Argentina dedicated to services related to human resources.',
             title: 'Consultora Enlazar',
             url: 'https://consultoraenlazar.com.ar/'
         },
         {
-            description: 'Aplicación móvil desarrollada con el fin de trackear en tiempo real ubicación de familiares.',
-            title: 'Trazapp (App móvil)',
+            description: 'Mobile application developed in order to track the location of family members in real time.',
+            title: 'Trazapp (Mobile app)',
             url: 'https://play.google.com/store/apps/details?id=app.traza.flutter&pli=1'
         },
         {
-            description: 'Aplicación web creada para visualizar en tiempo real la ubicación de los dispositivos asociados desde la app Trazapp móvil, desarrollada para compañía de Venezuela dedicada a geolocalización.',
-            title: 'Trazapp (App web)',
+            description: 'Web application created to view the location of associated devices in real time from the Trazapp mobile app, developed for a Venezuelan company dedicated to geolocation.',
+            title: 'Trazapp (Web app)',
             url: 'https://trazapp.sigisqa.com/'
         },
         {
-            description: 'App móvil desarrollada para gran empresa de telecomunicaciones en Venezuela, con el fin de rastrear vehículos y/o personas en tiempo real, desarrollada para compañía de Venezuela dedicada a geolocalización.',
+            description: 'Mobile app developed for a large telecommunications company in Venezuela, in order to track vehicles and/or people in real time.',
             title: 'Dónde estás',
             url: 'https://play.google.com/store/apps/details?id=ve.com.dondeestas'
         },
         {
-            description: 'Web app desarrollada para agencia de markenting, branding y diseño. Compañía con sucursales en Estados Unidos y República Dominicana',
+            description: 'Web app developed for marketing, branding and design agency. Company with branches in the United States and the Dominican Republic.',
             title: 'Three Columns Studio',
             url: 'https://threecolumnsstudio.com/'
         }
