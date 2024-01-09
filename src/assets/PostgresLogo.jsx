@@ -1,10 +1,8 @@
 function PostgresLogo() {
     return (
         <>
-            <svg xmlns="http://www.w3.org/2000/svg" height="50%" viewBox="0 0 35.6 35.6" width="50%" style={{
+            <svg xmlns="http://www.w3.org/2000/svg" height="30%" viewBox="0 0 26.5 26" width="30%" style={{
                 position: 'absolute',
-                bottom: '25%',
-                left: '32.5%',
                 zIndex: '-10000'
             }}>
                 <g fill="none" stroke="#fff">

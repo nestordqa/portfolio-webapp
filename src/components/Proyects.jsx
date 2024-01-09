@@ -26,11 +26,11 @@ function Proyects () {
             title: 'Consultora Enlazar',
             url: 'https://consultoraenlazar.com.ar/'
         },
-        {
-            description: 'Mobile application developed in order to track the location of family members in real time.',
-            title: 'Trazapp (Mobile app)',
-            url: 'https://play.google.com/store/apps/details?id=app.traza.flutter&pli=1'
-        },
+        // {
+        //     description: 'Mobile application developed in order to track the location of family members in real time.',
+        //     title: 'Trazapp (Mobile app)',
+        //     url: 'https://play.google.com/store/apps/details?id=app.traza.flutter&pli=1'
+        // },
         {
             description: 'Web application created to view the location of associated devices in real time from the Trazapp mobile app, developed for a Venezuelan company dedicated to geolocation.',
             title: 'Trazapp (Web app)',

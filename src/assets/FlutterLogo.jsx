@@ -1,11 +1,9 @@
 function FlutterLogo() {
     return (
         <>
-            <svg enableBackground="new 0 0 1999 2474.2" viewBox="0 0 1999 2474.2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+            <svg enableBackground="new 0 0 2400 2470" viewBox="0 0 2400 2470" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
             height="30%" width="30%" style={{
                 position: 'absolute',
-                bottom: '42.5%',
-                left: '32.5%',
                 zIndex: '-10000'
             }}>
                 <linearGradient id="a" gradientTransform="matrix(380.4042 -380.4175 -53.104 -53.1021 908228.3125 -700059.5)" gradientUnits="userSpaceOnUse" x1="-2115.0029" x2="-2115.0029" y1="1930.7407" y2="1929.7407">
