@@ -16,11 +16,11 @@ function Proyects () {
             title: 'Marcelo Design X',
             url: 'https://www.marcelodesignx.com/'
         },
-        {
-            description: 'Mobile application focused on tracking vehicle fleets for individuals, developed for a Venezuelan company dedicated to geolocation.',
-            title: 'GTR One',
-            url: 'https://play.google.com/store/apps/details?id=ve.com.sigis.gtrone'
-        },
+        // {
+        //     description: 'Mobile application focused on tracking vehicle fleets for individuals, developed for a Venezuelan company dedicated to geolocation.',
+        //     title: 'GTR One',
+        //     url: 'https://play.google.com/store/apps/details?id=ve.com.sigis.gtrone'
+        // },
         {
             description: 'Web application developed for a company located in Argentina dedicated to services related to human resources.',
             title: 'Consultora Enlazar',
@@ -45,6 +45,11 @@ function Proyects () {
             description: 'Web app developed for marketing, branding and design agency. Company with branches in the United States and the Dominican Republic.',
             title: 'Three Columns Studio',
             url: 'https://threecolumnsstudio.com/'
+        },
+        {
+            description: 'Mobile application developed for Maiquetia Airport to efficiently and securely manage the payment of airport fees for airline tickets.',
+            title: 'Aerotasa',
+            url: 'https://play.google.com/store/apps/details?id=com.aerotasa.app'
         }
     ];
     return (
