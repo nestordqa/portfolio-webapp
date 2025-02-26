@@ -16,11 +16,6 @@ function Proyects () {
             title: 'Marcelo Design X',
             url: 'https://www.marcelodesignx.com/'
         },
-        // {
-        //     description: 'Mobile application focused on tracking vehicle fleets for individuals, developed for a Venezuelan company dedicated to geolocation.',
-        //     title: 'GTR One',
-        //     url: 'https://play.google.com/store/apps/details?id=ve.com.sigis.gtrone'
-        // },
         {
             description: 'Web application developed for a company located in Argentina dedicated to services related to human resources.',
             title: 'Consultora Enlazar',
@@ -55,7 +50,7 @@ function Proyects () {
     return (
         <>
             <section className='ProyectsSection' data-bs-spy="scroll" id="scrollspyHeading4">
-                <h2>Our projects</h2>
+                <h2>My Projects</h2>
                 <div className='ProyectsCards'>
                     {
                         projects.slice(0, 3).map((project, idx) => <ProyectCard description={project.description} url={project.url} title={project.title} key={idx}/>)

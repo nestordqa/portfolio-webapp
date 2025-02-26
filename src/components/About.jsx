@@ -16,28 +16,26 @@ function About() {
                         </div> */}
                         <div className="AboutInformation">
                             <div className="AboutTexts">
-                                <p className="AboutMe">About us</p>
-                                <h2>RLN-Code</h2>
-                                <p>Full stack software development services.</p>
-                                <p className="Description">
-                                    
-We are a team of systems engineers with more than 05 years of experience passionate about creating innovative solutions. Experienced in leading technologies such as Angular, React, NextJS, React Native, Flutter, Laravel, CodeIgniter, Java, Node.js, PostgreSQL, MongoDB and Emitter. We offer high-quality development services tailored to your needs.
+                                <p className="AboutMe">About me</p>
+                                <h2>Néstor Quiñones</h2>
+                                <p>Software Engineer.</p>
+                                <p className="Description">                                    
+                                    I am a developer with seven years of experience in software development,
+                                    specializing in JavaScript, TypeScript, React, Angular, and NodeJS. I have worked
+                                    with databases such as PostgreSQL, MySQL, and MongoDB, and I have experience
+                                    in implementing unit tests using tools like Jest and Mocha.
+                                    Additionally, I have a strong background in mobile application development with
+                                    Flutter and React Native, as well as in container orchestration using Docker and
+                                    Kubernetes. My focus on efficiency and continuous integration is reflected in my use
+                                    of Jenkins and messaging systems like RabbitMQ. I am always seeking new
+                                    opportunities to learn and grow in the field of technology.
                                 </p>
                             </div>
                             <div className="AboutExternals">
                                 <div className="MediaContainer">
-                                    {/* <a className="Media" href="https://github.com/victor260622" target="_blank" rel="noreferrer">
-                                        <GitHubLogo />
-                                    </a>
-                                    <a className="Media" href="https://www.linkedin.com/in/victorlovera/" target="_blank" rel="noreferrer">
-                                        <LinkedinLogo />
-                                    </a>
-                                    <a className="Media" href="https://www.instagram.com/vlovera.bl/" target="_blank" rel="noreferrer">
-                                        <InstagramLogo />
-                                    </a> */}
                                 </div>
                                 <a className="ButtonScroll2" href='#scrollspyHeading4'>
-                                    Look at our projects!
+                                    Look at my projects!
                                 </a>
                             </div>
                         </div>

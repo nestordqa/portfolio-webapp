@@ -120,7 +120,6 @@ function Graphics({ circleWidth = "200", porcentage, image, lenguage }) {
                     { image == 'JavaLogo' &&  <JavaLogo /> }
                     { image == 'NodeLogo' &&  <NodeLogo /> }
                     { image == 'MongoLogo' &&  <MongoLogo /> }
-
                 </div>
                 <p x="50%" y="50%" dy="0.3em" textAnchor="middle" className='CircleText'>{lenguage}</p>
             </section>

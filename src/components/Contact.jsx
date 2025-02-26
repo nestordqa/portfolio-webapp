@@ -23,9 +23,14 @@ function Contact () {
         })
         .catch(e => console.log(e));
     };
-    // const handleSubmit = (event) => {
-    //     event.preventDefault();
-    // }
+
+    const handleWhatsAppRedirect = () => {
+        const phoneNumber = '584121385416'; 
+        const message = 'Hi there!  I am contacting you from your portfolio website.';
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(whatsappURL, '_blank');
+    };
+
     return (
         <>
             <section className='ContactSection' data-bs-spy="scroll" id="scrollspyHeading5">
@@ -196,6 +201,7 @@ function Contact () {
                                 </div>
                                 <div className='FormButton'>
                                     <button type='submit'>Submit</button>
+                                    <button type="button" onClick={handleWhatsAppRedirect}>Contact me on WhatsApp</button>
                                 </div>
                             </fieldset>
                         </form>

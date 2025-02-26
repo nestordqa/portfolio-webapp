@@ -4,8 +4,8 @@ function Footer() {
       <>
         <section className="FooterSection">
             <div className="FooterContainer">
-              <p>© Copyright 2024 - RLN-CODE.</p>
-              <p>Powered by RLN-CODE.</p>
+              <p>© Copyright 2025 - Nestor Quinones.</p>
+              <p>Powered by Nestor Quinones.</p>
             </div>
         </section>
       </>

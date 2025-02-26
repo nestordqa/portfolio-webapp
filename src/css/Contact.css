@@ -97,14 +97,16 @@ textarea {
 }
 .FormButton{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    column-gap: 1em;
     margin-top: 25px;
 }
 .FormButton button {
     background-color: inherit;
     font-family: Inter;
     color: #ae0cb1;
-    width: 150px;
+    width: 250px;
     height: 40px;
     border: 3px solid #ae0cb1;
     font-size: 16px;
@@ -115,7 +117,7 @@ textarea {
     background-color: #ae0cb1;
     font-family: Inter;
     color: #ffffff;
-    width: 150px;
+    width: 250px;
     height: 40px;
     border: 3px solid #ae0cb1;
     font-size: 16px;

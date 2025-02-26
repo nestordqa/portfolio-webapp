@@ -23,13 +23,9 @@ function Skills () {
                         </div>
                 </div>
                 {/* <div className='SkillsContainer'>
-                        <Graphics porcentage={99} image='MongoLogo' lenguage='MongoDB' />
-                        <Graphics porcentage={99} image='HtmlLogo' lenguage='HTML' />
-                        <Graphics porcentage={90} image='JavaScriptLogo' lenguage='JavaScript' />
-                        <div className='a'>
-                            <Graphics porcentage={72} image='ReactLogo' lenguage='ReactJs' />
-                            <Graphics porcentage={87} image='VueLogo' lenguage='VueJs' />
-                        </div>
+                        <Graphics porcentage={80} image='NestLogo' lenguage='NestJS' />
+                        <Graphics porcentage={95} image='FlutterLogo' lenguage='Flutter' />
+                        <Graphics porcentage={80} image='LaravelLogo' lenguage='Laravel' />
                 </div> */}
             </section>
         </>
