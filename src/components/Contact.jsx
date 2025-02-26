@@ -184,7 +184,7 @@ function Contact () {
                                         fontStyle: 'italic',
                                         fontWeight: '900'
                                     }}>
-                                        More than 600 characters are not allowed.
+                                        More than 600 characters are not allowed
                                     </span>
                                 }
                                 {
